@@ -8,7 +8,7 @@ import Login from "./pages/Login"
 import Home from "./pages/Home"
 import Signup from "./pages/Signup"
 import Gobiggohome from "./pages/Gobiggohome"
-import Details from "./pages/Details"
+import FormPagefile from "./pages/FormPagefile"
 
 function App() {
   return (
@@ -19,7 +19,8 @@ function App() {
       <Route path="/main" element={<Home/>} Home/>
       <Route path="/signup" element={<Signup/>} Signup/>
       <Route path="/home" element={<Gobiggohome/>} Gobiggohome/>
-      <Route path="/details" element={<Details/>} Details/>
+      <Route path="/formpagefile" element={<FormPagefile/>} FormPagefile/>
+
       </Routes>
       </BrowserRouter>
     </div>

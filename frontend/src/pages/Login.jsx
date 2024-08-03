@@ -17,7 +17,7 @@ import { useNavigate } from 'react-router-dom';
 function Login () {
   const navigate = useNavigate();
   const handleClick = () => {
-    navigate('/Signup'); // Redirect to the signup page
+    navigate('/signup'); // Redirect to the signup page
   };
   const handleHome =()=>{
     navigate('/home');

@@ -1,16 +1,4 @@
 import React from "react";
-import { createContext,useState,useEffect } from "react";
-const formContext= createContext({})
-export const FormProvider=({children})=>{
-  return (
-    <formContext.Provider value={{}}>
-      {children}
-      </formContext.Provider>
-  )
-}
-
-/*
-import React from "react";
 import '../index.css';
 import {
   Card,
@@ -23,12 +11,10 @@ import {
 import { Input } from "@/components/ui/input";
 import { Button } from "@/components/ui/button";
 import { useNavigate } from 'react-router-dom';
-
-
 function Signup () {
     const navigate = useNavigate();
     const handleClick = () => {
-        navigate('/details'); // Redirect to the home page
+        navigate('/formpagefile'); // Redirect to the details page
       };
   return (
     <div className="w-screen h-screen flex bg-[#01084E] justify-center items-center font-calistoga font-light">
@@ -42,8 +28,8 @@ function Signup () {
       <hr className="pb-4"/>
         <div className="flex flex-col justify-center items-center gap-4 w-[80%] mx-auto">
           <Input type="email" placeholder="Enter your Email" className="flex-1 rounded-[10px]"/>
-          <Input type="text" placeholder="Password"  className="flex-1 rounded-[10px]"/>
-          <Input type="text" placeholder="Confirm Password"  className="flex-1 rounded-[10px]"/>
+          <Input type="password" placeholder="Password"  className="flex-1 rounded-[10px]"/>
+          <Input type="password" placeholder="Confirm Password"  className="flex-1 rounded-[10px]"/>
           <button onClick={handleClick} className="flex-1 w-full rounded-[10px] bg-[#7426EE] text-white">Login</button>
         </div>
               </Card>
@@ -54,4 +40,3 @@ function Signup () {
 };
 
 export default Signup;
-*/
