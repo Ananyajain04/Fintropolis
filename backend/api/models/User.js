@@ -10,9 +10,18 @@ const userSchema = new mongoose.Schema({
   company: { type: String, required: true },
   income: { type: Number, required: true },
   expenditure: { type: Number, required: true },
-  goals: { type: String, required: true },
-  assets: { type: String, required: true },
-  liabilities: { type: String, required: true }
+  goals: { type: [String], validate: {
+    validator: (v) => Array.isArray(v) && v.length <= 3,
+    message: 'Goals must contain at most 3 items.'
+    }, required: true },
+  assets: { type: [String], validate: {
+    validator: (v) => Array.isArray(v) && v.length <= 3,
+    message: 'Assests must contain at most 3 items.'
+    },required: true },
+  liabilities: { type: [String], validate: {
+    validator: (v) => Array.isArray(v) && v.length <= 3,
+    message: 'Liabilities must contain at most 3 items.'
+    }, required: true }
 });
 
 userSchema.pre("save", async function (next) {

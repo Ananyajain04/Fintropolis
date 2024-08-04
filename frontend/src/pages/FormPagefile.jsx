@@ -5,8 +5,13 @@ import { useNavigate } from "react-router-dom";
 
 function FormPagefile () {
     const navigate = useNavigate();
-    const handleClick = () => {
-        navigate('/home'); // Redirect to the signup page
+  const handleClick = async () => {
+    try {
+      await axios.post('http://your-backend-url/submit-form', formData);
+      navigate("/home"); // Redirect to the home page after successful submission
+    } catch (error) {
+      console.error('Error submitting form:', error);
+    }
   };
   return (
     <div>
