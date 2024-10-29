@@ -1,5 +1,5 @@
 ## FINTROPOLIS - your personal finance tracker!
-Fintropolis is a comprehensive personal finance management tool aimed at helping users effectively manage their financial health. Developed by **Team CodeBusters**, this platform provides an all-in-one solution for budgeting, investing, and financial tracking, designed particularly with new graduates and individuals aiming to improve their financial planning.
+Fintropolis is a comprehensive personal finance management tool aimed at helping users effectively manage their financial health. Developed by Team CodeBusters, this platform provides an all-in-one solution for budgeting, investing, and financial tracking, designed particularly with new graduates and individuals aiming to improve their financial planning.
 
 ## Introduction
 Fintropolis is crafted to address the widespread issue of poor financial health. With nearly 80% of Indians lacking emergency savings and 77% experiencing money-related stress, Fintropolis offers an accessible and structured approach to financial planning.
@@ -20,7 +20,7 @@ Many individuals struggle with managing their finances, leading to stress and in
 3. **Enter Details** - Provide financial details for tailored recommendations.
 4. **Home Page** - Main interface for financial tracking and analysis.
 5. **Profile Page** - Access personalized recommendations.
-6. **Important Features** - **Recommended Stocks**
+6. **Important Features** - Recommended Stocks
 
 ## Business Model
 - **Free Tier**: Basic income and expense tracking, limited stock recommendations.
