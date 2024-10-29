@@ -20,7 +20,7 @@ Many individuals struggle with managing their finances, leading to stress and in
 3. **Enter Details** - Provide financial details for tailored recommendations.
 4. **Home Page** - Main interface for financial tracking and analysis.
 5. **Profile Page** - Access personalized recommendations.
-6. **Important Features** - Recommended Stocks
+6. **Important Features** - Recommended Stocks, Recommended Courses
 
 ## Business Model
 - **Free Tier**: Basic income and expense tracking, limited stock recommendations.
